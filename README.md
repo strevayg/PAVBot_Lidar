@@ -1,9 +1,11 @@
 # PAVBOT LIDAR ROS2 Package
 ROS2 node for subscribing to /scan from SLAMTEC LIDAR scans using SLAMTEC LIDAR SLLIDAR Package for S2 Model
-Submodule: [https://github.com/Slamtec/sllidar_ros2]
+Submodule: https://github.com/Slamtec/sllidar_ros2
 - - -
 ## How to Install
-[git clone --recurse-submodules https://github.com/strevayg/PAVBot_Lidar]
+'''
+git clone --recurse-submodules https://github.com/strevayg/PAVBot_Lidar
+'''
 - - - 
 ## How to Run
 * Assuming ROS2 has already been installed and correctly configured with builds 
