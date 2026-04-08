@@ -10,8 +10,8 @@ class ScanListener(Node):
         self.publisher = self.create_publisher(LaserScan, '/flitered_scan', 10)
         self.subscription = self.create_subscription(LaserScan, '/scan', self.scan_callback, 10)
         
-        self.width = .73152  # width of pavbot (m) assuming 2.4ft
-        self.extent = self.width / 2.0 # center to edge distance so lidar doesnt react to itself 
+        #self.width = .73152  # width of pavbot (m) assuming 2.4ft
+        #self.extent = self.width / 2.0 # center to edge distance so lidar doesnt react to itself 
         self.get_logger().info('Publishing filtered_scan topic. Use Rviz for visualization.')
     def indexCalculator(self,msg,angle):
         index = int((angle - msg.angle_min) / msg.angle_increment)
@@ -28,7 +28,7 @@ class ScanListener(Node):
         # left: 3pi/2 (270)   | front: pi (180)   | right: pi/2 (90)
         angles = linspace(msg.angle_min, msg.angle_max, len(msg.ranges))
         points = [r * sin(theta) if (theta <  -1.5708 or theta > 1.5708) else inf for r, theta in zip(msg.ranges, angles)]
-        newRanges = [r if abs(y) < self.extent else inf for r,y in zip(msg.ranges, points)]
+        newRanges = [r if (-1.5708 <= theta <= 1.5708) else inf for r, theta in zip(msg.ranges,angles)]
         msg.ranges = newRanges
         self.publisher.publish(msg)
 def main():

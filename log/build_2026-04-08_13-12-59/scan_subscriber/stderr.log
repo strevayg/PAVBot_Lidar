@@ -1,0 +1,5 @@
+  File "/home/fiya/ros2_ws/install/scan_subscriber/lib/python3.12/site-packages/scan_subscriber/scan_listener.py", line 31
+    newRanges = [r if -1.5708 <= theta <= 1.5708) else inf for r, theta in zip(msg.ranges,angles)]
+                                                ^
+SyntaxError: closing parenthesis ')' does not match opening parenthesis '['
+
