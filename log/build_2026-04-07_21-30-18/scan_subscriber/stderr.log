@@ -1,0 +1,5 @@
+  File "/home/fiya/ros2_ws/install/scan_subscriber/lib/python3.12/site-packages/scan_subscriber/scan_listener.py", line 2
+    import math import sin
+                ^^^^^^
+SyntaxError: invalid syntax
+

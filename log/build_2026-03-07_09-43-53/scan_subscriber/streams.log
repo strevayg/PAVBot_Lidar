@@ -1,0 +1,24 @@
+[5.365s] Invoking command in '/home/fiya/ros2_ws/src/scan_subscriber': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fiya/ros2_ws/build/scan_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fiya/ros2_ws/install/scan_subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scan_subscriber build --build-base /home/fiya/ros2_ws/build/scan_subscriber/build install --record /home/fiya/ros2_ws/build/scan_subscriber/install.log --single-version-externally-managed install_data
+[6.479s] running egg_info
+[6.538s] writing ../../build/scan_subscriber/scan_subscriber.egg-info/PKG-INFO
+[6.538s] writing dependency_links to ../../build/scan_subscriber/scan_subscriber.egg-info/dependency_links.txt
+[6.539s] writing entry points to ../../build/scan_subscriber/scan_subscriber.egg-info/entry_points.txt
+[6.539s] writing requirements to ../../build/scan_subscriber/scan_subscriber.egg-info/requires.txt
+[6.539s] writing top-level names to ../../build/scan_subscriber/scan_subscriber.egg-info/top_level.txt
+[6.666s] reading manifest file '../../build/scan_subscriber/scan_subscriber.egg-info/SOURCES.txt'
+[6.669s] writing manifest file '../../build/scan_subscriber/scan_subscriber.egg-info/SOURCES.txt'
+[6.669s] running build
+[6.669s] running build_py
+[6.670s] copying scan_subscriber/scan_listener.py -> /home/fiya/ros2_ws/build/scan_subscriber/build/lib/scan_subscriber
+[6.671s] running install
+[6.685s] running install_lib
+[6.744s] copying /home/fiya/ros2_ws/build/scan_subscriber/build/lib/scan_subscriber/scan_listener.py -> /home/fiya/ros2_ws/install/scan_subscriber/lib/python3.12/site-packages/scan_subscriber
+[6.749s] byte-compiling /home/fiya/ros2_ws/install/scan_subscriber/lib/python3.12/site-packages/scan_subscriber/scan_listener.py to scan_listener.cpython-312.pyc
+[6.751s] running install_data
+[6.751s] running install_egg_info
+[6.818s] removing '/home/fiya/ros2_ws/install/scan_subscriber/lib/python3.12/site-packages/scan_subscriber-0.0.0-py3.12.egg-info' (and everything under it)
+[6.818s] Copying ../../build/scan_subscriber/scan_subscriber.egg-info to /home/fiya/ros2_ws/install/scan_subscriber/lib/python3.12/site-packages/scan_subscriber-0.0.0-py3.12.egg-info
+[6.820s] running install_scripts
+[7.255s] Installing scan_listener script to /home/fiya/ros2_ws/install/scan_subscriber/lib/scan_subscriber
+[7.256s] writing list of installed files to '/home/fiya/ros2_ws/build/scan_subscriber/install.log'
+[7.338s] Invoked command in '/home/fiya/ros2_ws/src/scan_subscriber' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fiya/ros2_ws/build/scan_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fiya/ros2_ws/install/scan_subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scan_subscriber build --build-base /home/fiya/ros2_ws/build/scan_subscriber/build install --record /home/fiya/ros2_ws/build/scan_subscriber/install.log --single-version-externally-managed install_data
