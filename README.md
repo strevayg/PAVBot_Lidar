@@ -17,4 +17,6 @@ git clone --recurse-submodules https://github.com/strevayg/PAVBot_Lidar
   - ros2 launch sllidar_ros2 sllidar_s2_launch.py
 * In another terminal launch the /scan subscriber node
   - ros2 run scan_subscriber scan_listener
+  - This node filters out the back 180deg of the LiDAR scan under the topic /filtered_scan in RViZ
+  - Remember: add this node to the launch file youre using as this is not included in this repo
 
